@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import About from './components/about';
+import './tailwind.output.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+	<div className="flex px-4 py-2 m-2">
+		<App />
+	</div>
   </React.StrictMode>,
   document.getElementById('root')
 );
