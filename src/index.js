@@ -8,7 +8,7 @@ import './tailwind.output.css';
 
 ReactDOM.render(
   <React.StrictMode>
-	<div className="flex px-4 py-2 m-2">
+	<div className="flex mb-4">
 		<App />
 	</div>
   </React.StrictMode>,
