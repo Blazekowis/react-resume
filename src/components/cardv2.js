@@ -40,6 +40,10 @@ function cardv2() {
 		</div>
 		
 			<Switch>
+
+				<Route path="/about">
+					<Profile />
+				</Route>
 				
 				<Route path="/about">
 					<About />
